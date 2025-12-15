@@ -1,4 +1,4 @@
-export default function fizzBuzz(number :number) {
+function fizzBuzz(number) {
     switch (true) {
         case number % 15 === 0:
             return "fizzBuzz";
@@ -10,3 +10,4 @@ export default function fizzBuzz(number :number) {
             return number;
     }
 }
+module.exports = fizzBuzz;
