@@ -1,13 +1,14 @@
-function fizzBuzz(number) {
+function fizzBuzz(argument) {
     switch (true) {
-        case number % 15 === 0:
+        case argument % 15 === 0:
             return "fizzBuzz";
-        case number % 3 === 0:
+        case argument % 3 === 0:
             return "fizz";
-        case number % 5 === 0:
+        case argument % 5 === 0:
             return "buzz";
         default:
-            return number;
+            return argument;
     }
 }
+
 module.exports = fizzBuzz;
