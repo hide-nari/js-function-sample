@@ -1,4 +1,4 @@
-export default function fizzBuzz(number) {
+export default function fizzBuzz(number :number) {
     switch (true) {
         case number % 15 === 0:
             return "fizzBuzz";
