@@ -1,13 +1,14 @@
 function fizzBuzz(argument) {
+    let num = parseInt(argument);
     switch (true) {
-        case argument % 15 === 0:
+        case num % 15 === 0:
             return "fizzBuzz";
-        case argument % 3 === 0:
+        case num % 3 === 0:
             return "fizz";
-        case argument % 5 === 0:
+        case num % 5 === 0:
             return "buzz";
         default:
-            return argument;
+            return num;
     }
 }
 
