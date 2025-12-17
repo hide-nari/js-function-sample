@@ -2,7 +2,7 @@ function fizzBuzz(argument) {
     let num = parseInt(argument);
     switch (true) {
         case num % 3 === 0 && num % 5 === 0:
-            return "fizzBuzz";
+            return "fizzbuzz";
         case num % 3 === 0:
             return "fizz";
         case num % 5 === 0:
